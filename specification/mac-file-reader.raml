@@ -1,0 +1,16 @@
+#%RAML 1.0
+title: MAC File Reader
+version: 1.0.0
+
+/reader/url:
+  post:
+    body:
+      text/plain:
+        example: https://developer.salesforce.com/files/CoralCloudResortFAQs.pdf
+        type: string
+    responses:
+      "200":
+        body:
+          text/plain:
+            example: "\"\\nCoral Cloud Resort FAQs\\n\\nWhat time is check-in and checkout?\\nCheck-in is at 3:00PM. If you arrive prior to check-in, our helpful staff will safely secure your\\nluggage and inform you when your room is ready. Check-out is at 11:00AM, so if your flight\\ndeparts later, you can easily secure your luggage with us and still enjoy the amenities, like\\ngrabbing a bite to eat or laying by the ocean while you wait.\\n\\nCan we request adjoining rooms?\\nWe accept requests for adjoining rooms and will always do our best to accommodate you and\\nyour friends. However we cannot guarantee that adjoining rooms will be available. Requests\\ncan be made by calling the resort after you have booked your rooms.\\n\\nAre beach towels provided by the resort?\\nYes, beach towels are provided at no cost by the resort.\\n\\nAre Pets Allowed?\\nPets are not allowed at the resort.\\n\\nWhat is required upon check-in at the resort?\\nThe resort requires guests to complete and sign the registration card at check-in, and provide a\\ncredit card imprint or cash deposit for incidental charges.\\n\\nAre cribs or rollaway beds available?\\nYes, we have rollaway beds and cribs that can be added to your room reservation. These are\\ncomplimentary amenities upon request when making your room reservation.\\n\\nIs there a hairdryer in each room?\\nYes, every room includes a hairdryer, so there\u2019s no need to bring one.\\n\\nIs there a safe in each room?\\nYes, all rooms include a safe, so valuables, such as your wallet, jewelry, and travel documents\\ncan be stored.\\n\\n\\n\""
+            type: string
