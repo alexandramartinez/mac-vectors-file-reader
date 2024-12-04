@@ -1,6 +1,11 @@
 # MuleSoft AI Chain (MAC) Vectors + Einstein + Chroma
 
-Simple Mule application making use of the MAC (MuleSoft AI Chain) project to read documents from a given URL and parse them to a JSON String. Using Einstein as language model and Chroma as the vectors database.
+Simple Mule application making use of the [MAC](https://mac-project.ai/) (MuleSoft AI Chain) project to read documents from a given URL and parse them to a JSON String. Using [Einstein](https://www.salesforce.com/ca/artificial-intelligence/) as language model and [Chroma](https://www.trychroma.com/) as the vectors database.
+
+## Similar repos
+
+[![](https://github-readme-stats.vercel.app/api/pin/?username=ProstDev&repo=mac-ollama-proj&theme=graywhite)](https://github.com/ProstDev/mac-ollama-proj)
+[![](https://github-readme-stats.vercel.app/api/pin/?username=alexandramartinez&repo=ollama-llm-provider&theme=graywhite)](https://github.com/alexandramartinez/ollama-llm-provider)
 
 ## 1 - Salesforce Einstein (Model)
 
